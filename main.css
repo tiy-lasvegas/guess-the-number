@@ -4,7 +4,7 @@ body, body * {
   font-family: Ubuntu, sans-serif;
 }
 
-.response {
+.response, #timer {
   text-align: center;
   margin-top: 50px;
   height: 50px;
@@ -44,4 +44,9 @@ button {
   width: 250px;
   font-size: 1em;
   cursor: pointer;
+}
+
+.reset {
+  padding-top:20px;
+  text-align:center;
 }
