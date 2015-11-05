@@ -15,6 +15,6 @@ function checkGuess (event) {
   } else if (guess < correct) {
     response.textContent = guess + " is too low!";
   } else if (isNaN(guess)) {
-    response.textContent = guess + " is not a number!";
+    response.textContent = "'" + input.value + "' is not a number!";
   }
 }
