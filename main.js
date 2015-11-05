@@ -10,11 +10,11 @@ function checkGuess (event) {
   var guess = Number(input.value);
   if (guess === correct) {
     response.textContent = "Correct!!!";
-  }
-  else if (guess > correct) {
+  } else if (guess > correct) {
     response.textContent = guess + " is too high!";
-  }
-  else if (guess < correct) {
+  } else if (guess < correct) {
     response.textContent = guess + " is too low!";
+  } else if (isNaN(guess)) {
+    response.textContent = guess + " is not a number!";
   }
 }
