@@ -4,7 +4,7 @@ body, body * {
   font-family: Ubuntu, sans-serif;
 }
 
-.response {
+.response, .log, .countup {
   text-align: center;
   margin-top: 50px;
   height: 50px;
