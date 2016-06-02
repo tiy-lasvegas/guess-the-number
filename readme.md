@@ -1,3 +1,5 @@
+# [http://bit.ly/vegas-fe](http://bit.ly/vegas-fe)
+
 # JavaScript - An Introduction
 
 ## What is JavaScript?
